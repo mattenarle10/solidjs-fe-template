@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@source "../pages/**/*.tsx";
+@source "../components/**/*.tsx";
+@source "../context/**/*.tsx";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --color-primary: #3b82f6;
+  --color-accent: #ef4444;
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+}
